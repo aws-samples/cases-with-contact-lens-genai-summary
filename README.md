@@ -49,7 +49,8 @@ Step 2: Amazon Connect writes Contact Lens file to Amazon S3, which contains a p
 ![Properties](images/c-event.png?raw=true)
 
     4. Configure one of the following option
-        1. Option 1: With Contact Lens redaction turned on, configure two events for the respective channel
+       
+         Option 1: With Contact Lens redaction turned on, configure two events for the respective channel
            
             For Voice channel
            
@@ -62,7 +63,7 @@ Step 2: Amazon Connect writes Contact Lens file to Amazon S3, which contains a p
                 Enter a logical event name, e.g. cases-chat-sum
                 Prefix: Analysis/Chat/Redacted
                 Suffix: .json
-        3. Option 2: With NO Contact Lens redaction, configure two events for the respective channel
+       Option 2: With NO Contact Lens redaction, configure two events for the respective channel
            
             For Voice channel
            
@@ -77,7 +78,6 @@ Step 2: Amazon Connect writes Contact Lens file to Amazon S3, which contains a p
                 Suffix: .json
            
     Screenshot example below
-  	
 ![Properties](images/d-eventname.png?raw=true)
 
     5. Select Put under vent types
