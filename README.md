@@ -26,8 +26,8 @@ Step 2: Amazon Connect writes Contact Lens file to Amazon S3, which contains a p
 
 ## Walkthrough
 
-1.  Download the content in the "source-code" [here](source-code/). folder.
-2.  Run "npm install"
+1.  Download the content [here]([source-code/](https://github.com/aws-samples/cases-with-contact-lens-genai-summary/archive/refs/heads/main.zip)) and unzip.
+2.  Go inside source-code folder and Run "npm install"
 3.  Zip the contents of source-code folder with name source-code.zip
 4.	Create a new S3 solution bucket in your AWS account.
 5.	Upload the source-code zip file (step 3) into S3 Bucket (step 4).
