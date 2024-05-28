@@ -28,14 +28,14 @@ Step 2: Amazon Connect writes Contact Lens file to Amazon S3, which contains a p
 
 1.  Download the content in the "source-code" [here](source-code/). folder.
 2.  Run "npm install"
-3.  Zip the contents of source-code folder after step 2 and name the zip source-code.zip
-4.	Create a S3 solution bucket in your AWS account.
-5.	Upload the source-code zip file (step 3) into S3 Bucket created in step 4.
+3.  Zip the contents of source-code folder with name source-code.zip
+4.	Create a new S3 solution bucket in your AWS account.
+5.	Upload the source-code zip file (step 3) into S3 Bucket (step 4).
 6.	Run the CFT located [here](cft/cases-with-contact-lens-genai-summary-cft.yaml).
 7.	Following parameters needed for the CFT:
     1.	ConnectContactLensS3Bucket: Copy the Data storage S3 bucket from the Amazon Connect instance.
     2.	CasesDomainId: Copy the case domain ID from the Amazon Connect instance.
-    3.	SolutionSourceBucket: Solution bucket created in step 2
+    3.	SolutionSourceBucket: Solution bucket name created in step 4
 
 ![CloudFormation Template Screenshot](images/cft-screenshot2.png?raw=true)
 
